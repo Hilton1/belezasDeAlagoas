@@ -110,3 +110,13 @@ header {
 .card__content .title {
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    margin: 20px;
+  }
+}
