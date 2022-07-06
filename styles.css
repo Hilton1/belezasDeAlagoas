@@ -2,7 +2,7 @@
 
 :root {
   --color-green: #50FA7B;
-  --color-rocket: #7159c1;
+  --color-purple: #7159c1;
 }
 
 * {
@@ -21,6 +21,10 @@ header {
   padding: 32px;
   border-bottom: 1px solid #333;
   background: rgba(0, 0, 0, 0.274);
+}
+
+.selected {
+  font-weight: bold;
 }
 
 .links {
@@ -92,7 +96,7 @@ header {
 }
 
 .card {
-  background-color: var(--color-rocket);
+  background-color: var(--color-purple);
   cursor: pointer;
 }
 
